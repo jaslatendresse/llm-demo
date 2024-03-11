@@ -25,6 +25,7 @@ See the README file of the respective folders on how to run the demonstrations.
 * [llama.cpp](https://github.com/ggerganov/llama.cpp)
 * [Downloading models](https://huggingface.co/TheBloke)
 * [Gradio](https://www.gradio.app/)
+* [My slides](https://docs.google.com/presentation/d/1A2S3omOO6HJDGVB2EC4frDi5zGqggjqTSW0x01OVKQE/edit?usp=sharing)
 
 ## "Plug-and-Play" Resources
 
