@@ -79,4 +79,32 @@ The current value is set at 8, which should be optimal for this setup, but you m
 
 ## Model parameters
 
-A full list of the model capabilities (such as the number of tokens in the context) can be found here.
+Some of the **model parameters** can be changed from the UI by selecting the "Advanced" box: 
+
+![](static/advanced.png)
+
+"Max new tokens" indicates the number of tokens received in the model's response. 
+
+"Temperature" allows to control the randomness of the response. A lower temperature will result in more deterministic outputs while a higher temperature will result in more random (or creative) outputs. The default value is 0.8.
+
+"Top-p" is a parameter that allows the model to restrict its choices to the top "k" most probable next tokens at each step of generation. The probability distribution is truncated to keep only the top "k" options, from which the next word is sampled. This approach reduces the likelihood of generating improbable words, enhancing coherence but potentially limiting creativity. The default value is 0.95.
+
+"Top-k" selects the smallest set of words whose cumulative probability exceeds the threshold "p". This set, or "nucleus", varies in size at each step. The model then samples from this dynamically sized set. This method balances diversity and coherence more adaptively, as it considers the shape of the probability distribution rather than a fixed number of words. The default value is 50. 
+
+More details on this can be found in `demo-terminal/README/`. 
+
+**Pre-set prompts** have been included to show the model's capabilities. They can be accessed through the UI by clicking on the "Prompts" box:
+
+![](static/prompts.png)
+
+These prompts can be modified in `demo-ui/prompts/prompts.csv`. They are separated in groups of topics, namely "Entertainment", "Health", "Technology". As seen in the screenshot above, each prompt has two versions: a minimal prompt and a more detailed prompt. This is to show how the formulation of the prompt can affect a model's output. They are each annotated by a letter so that "code knows" which prompt of the "better equivalent" of which. This is purely for demonstration purposes. 
+
+`demo-ui/prompts/utils.py` takes care of sorting those prompts in the UI. 
+
+
+
+
+
+
+
+

@@ -203,7 +203,7 @@ def main():
         #component-0 #component-1 #component-24 > div:nth-child(2) { height:80vh !important; overflow-y:auto }
         .text-left-aligned {text-align: left !important; font-size: 16px;}
     """
-    with gr.Blocks(css=CSS, theme=gr.themes.Soft()) as demo:
+    with gr.Blocks(css=CSS) as demo:
         with gr.Row(equal_height=True):
             with gr.Column(scale=2):
                 gr.Markdown(DESCRIPTION)
@@ -272,7 +272,7 @@ def main():
                     )
             with gr.Column(scale=1, visible=default_prompts_checkbox) as prompt_column:
                 gr.HTML(
-                    '<p style="color: white; font-weight: bold;font-size: 16px;">prompts</p>'
+                    '<p style="color: white; font-weight: bold;font-size: 16px;">Pre-set prompts</p>'
                 )
                 for k, v in prompts.items():
                     with gr.Tab(k, scroll_to_output=True):
