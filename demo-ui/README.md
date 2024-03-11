@@ -61,7 +61,7 @@ Download the model `llama-2-7b-chat-gguf` on [HuggingFace](https://huggingface.c
 
 Put the model in the `demo-ui/models` folder. 
 
-**All the commands for this can be found in `demo-ui/commands.txt`, just make sure to put your own username in the path.
+**All the commands for this can be found in `demo-ui/commands.txt`, just make sure to put your own username in the path.""
 
 ## Execution
 
