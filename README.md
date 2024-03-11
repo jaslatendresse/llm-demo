@@ -17,3 +17,15 @@ To ensure the smooth operation of this demonstration, your system should meet th
 * Environment: Ensure that you have Python installed (macOS users shouldn't have to worry about that).
 
 See the README file of the respective folders on how to run the demonstrations. 
+
+## References
+
+* [llama.cpp](https://github.com/ggerganov/llama.cpp)
+* [Downloading models](https://huggingface.co/TheBloke)
+* [Gradio](https://www.gradio.app/)
+
+## "Plug-and-Play" Resources
+
+[LM Studio](https://lmstudio.ai/) - UI that allows you to download models and run inference entirely offline. 
+
+[text-generation-webui](https://github.com/oobabooga/text-generation-webui) - Gradio web UI for LLMs.
