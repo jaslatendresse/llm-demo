@@ -26,6 +26,5 @@ See the README file of the respective folders on how to run the demonstrations.
 
 ## "Plug-and-Play" Resources
 
-[LM Studio](https://lmstudio.ai/) - UI that allows you to download models and run inference entirely offline. 
-
-[text-generation-webui](https://github.com/oobabooga/text-generation-webui) - Gradio web UI for LLMs.
+* [LM Studio](https://lmstudio.ai/) - UI that allows you to download models and run inference entirely offline. 
+* [text-generation-webui](https://github.com/oobabooga/text-generation-webui) - Gradio web UI for LLMs.
