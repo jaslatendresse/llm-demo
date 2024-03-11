@@ -7,15 +7,15 @@
 
 ## Setup
 
-**Step 1: Clone this repository**
+#### Step 1: Clone this repository
 
 `git clone https://github.com/jaslatendresse/llm-demo.git`
 
-**Step 2: Navigate to the repository's folder and workspace**
+#### Step 2: Navigate to the repository's folder and workspace
 
 `cd llm-demo/demo-ui`
 
-**Step 3: Set up local environment**
+#### Step 3: Set up local environment
 
 ```
 wget https://github.com/conda-forge/miniforge/releases/latest/download/Miniforge3-MacOSX-arm64.sh
@@ -27,7 +27,7 @@ export PATH="/home/<YOUR_COMPUTER_USERNAME>/miniforge3/bin:$PATH"
 
 This step will install Conda with the Miniforge installer (specific to ARM64 architectures) and ink the `conda` command to this installation. 
 
-**Step 4: Create and activate the virtual environment**
+#### Step 4: Create and activate the virtual environment
 
 ```
 conda create --name py310 python=3.10
@@ -37,7 +37,7 @@ conda activate py310
 
 This will create a virtual environment with Python 3.10 named "py310" and activate it.
 
-**Step 5: Setting up the backend**
+#### Step 5: Setting up the backend
 
 We must manually install the backend dependency to specify that we want the backend to use metal acceleration. 
 
@@ -49,11 +49,11 @@ CMAKE_ARGS="-DLLAMA_METAL=on" FORCE_CMAKE=1 pip install -U llama-cpp-python --no
 pip install 'llama-cpp-python[server]'
 ```
 
-**Step 6: Install other dependencies**
+#### Step 6: Install other dependencies
 
 `pip install -r requirements.txt`
 
-**Step 7: Download the model**
+#### Step 7: Download the model
 
 Inside the folder `demo-ui`, create a folder named `models`. 
 

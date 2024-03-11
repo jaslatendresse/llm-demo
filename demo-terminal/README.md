@@ -2,33 +2,33 @@
 
 ## Setup 
 
-**Step 1: Clone this repository**
+#### Step 1: Clone this repository
 
 `git clone https://github.com/jaslatendresse/llm-demo.git`
 
-**Step 2: Clone the backend**
+#### Step 2: Clone the backend
 
 `git clone https://github.com/ggerganov/llama.cpp.git`
 
-**Step 3: Navigate to the backend**
+#### Step 3: Navigate to the backend
 
 `cd llama.cpp`
 
-**Step 4: Build the repository**
+#### Step 4: Build the repository
 
 `make`
 
 On macOS, Metal is automatically activated which allows the execution to be on GPU. 
 
-**Step 5: Download the model**
+#### Step 5: Download the model
 
 `wget https://huggingface.co/TheBloke/Llama-2-7B-chat-GGML/resolve/main/llama-2-7b-chat.ggmlv3.q4_0.bin`
 
-**Step 6: Save the model**
+#### Step 6: Save the model
 
 Put the model in the `models` folder of the `llama.cpp` repository. If the folder doesn't exist, create it. 
 
-**Step 7: Convert the model to the proper format**
+#### Step 7: Convert the model to the proper format
 
 GGML models are no longer supported by llama.cpp. However, I could not find a GGUF model that worked with this demo. The solution is to convert the model. 
 
