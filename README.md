@@ -6,6 +6,8 @@ This repository aims to guide you on how to do inference with a large language m
 
 `demo-terminal` will walk you through hosting your model locally and do inference from the terminal. This solution may be more customizable if you want to create your own user interface, and gives you access to a wider set of features from the model (inference, fine-tuning, etc).
 
+**This repository is an aggregation of resources and what I have learned by trying to host a large language model locally. See the references at the end of this file.**
+
 ## Minimal requirements
  
 To ensure the smooth operation of this demonstration, your system should meet the following minimal requirements:
@@ -28,3 +30,4 @@ See the README file of the respective folders on how to run the demonstrations.
 
 * [LM Studio](https://lmstudio.ai/) - UI that allows you to download models and run inference entirely offline. 
 * [text-generation-webui](https://github.com/oobabooga/text-generation-webui) - Gradio web UI for LLMs.
+
