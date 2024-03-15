@@ -32,3 +32,6 @@ See the README file of the respective folders on how to run the demonstrations.
 * [LM Studio](https://lmstudio.ai/) - UI that allows you to download models and run inference entirely offline. 
 * [text-generation-webui](https://github.com/oobabooga/text-generation-webui) - Gradio web UI for LLMs.
 
+## Really good dataset if you want to fine-tune a model on academic papers
+
+[unarXive](https://github.com/IllDepence/unarXive)
