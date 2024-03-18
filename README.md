@@ -20,6 +20,10 @@ To ensure the smooth operation of this demonstration, your system should meet th
 
 See the README file of the respective folders on how to run the demonstrations. 
 
+## TODO
+
+* Add a research focused demo - how to do "batch" inference with llama-2 for research purposes, how to evaluate the outputs, how to capture the completion from the subprocess, etc.
+
 ## References
 
 * [llama.cpp](https://github.com/ggerganov/llama.cpp)
