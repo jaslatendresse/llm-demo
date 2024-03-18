@@ -1,6 +1,6 @@
 # Hosting a large language model locally
 
-This repository aims to guide you on how to do inference with a large language model locally. The demonstration is optimized for macOS and the llama family of models. 
+This repository aims to guide you on how to do inference with a large language model locally. The demonstration is optimized for macOS and uses the llama-2-7b-chat model family (link available to download in the demos README). Note that the quantization may differ depending on your system and hardware. 
 
 `demo-ui` will walk you through hosting your model locally and do inference from a user interface. This solution is more plug-and-play. 
 
