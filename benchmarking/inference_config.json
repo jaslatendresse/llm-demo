@@ -1,0 +1,15 @@
+{
+  "port": "3001",
+  "n_gpu_layers": "99",
+  "device": "mps",
+  "n_batch": "",
+  "n_ctx": "",
+  "n_threads": "",
+  "temperature": "",
+  "top_p": "",
+  "top_k": "",
+  "repeat_penalty": "",
+  "repeat_last_n": "",
+  "seed": "",
+  "verbose": ""
+}
