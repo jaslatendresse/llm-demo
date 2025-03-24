@@ -12,7 +12,7 @@ It walks you through:
 ## Repository Structure
 
 ```
-llm-demo/					# Local clone of llm-demo
+llm-demo/			# Local clone of llm-demo
 ├── inference-cli.sh       	# Script to run inference in CLI mode (llama-cli)
 ├── inference-web.sh       	# Script to run llama-server for web-based inference
 │
@@ -25,7 +25,7 @@ llm-demo/					# Local clone of llm-demo
 │   ├── convert.sh         	# Converts HF model to GGUF using llama.cpp
 │   └── quantize.sh        	# Quantizes the converted GGUF model using llama.cpp
 │
-├── bencharmking/		      # Benchmarking tool
+├── bencharmking/		# Benchmarking tool
 │
 ├── .gitignore             	# Git ignore file (to exclude models, etc.)
 ├── README.md              	# Project overview and instructions
